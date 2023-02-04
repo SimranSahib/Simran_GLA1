@@ -1,3 +1,6 @@
+//GLA - 1  Simranjit Singh
+
+
 <?php
 $host = "localhost";
 $username = "topca";
