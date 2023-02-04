@@ -3,7 +3,7 @@
 
 <?php
 include 'connection.php';
-
+//declaring the update function to update the rows
 function update_student($id) {
     global $conn;
     $sql = "UPDATE students SET student_name='Mark', student_age='30',student_number='23422' WHERE id=$id";
@@ -14,6 +14,8 @@ function update_student($id) {
         echo "Error updating record: " . mysqli_error($conn);
     }
 }
+
+//declaring the delete function to delete the rows
 
 function delete_student() {
     global $conn;
