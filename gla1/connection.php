@@ -1,4 +1,4 @@
-//GLA - 1  Simranjit Singh
+Assignment - 1  Simranjit Singh, Samandeep Singh
 
 
 <?php
@@ -7,12 +7,10 @@ $username = "topca";
 $password = "7800";
 $dbname = "students";
 
-// creating the connection
 $conn = mysqli_connect($host, $username, $password, $dbname);
 
-// Checking the connection
 if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+    die("<br>"."Connection failed: " . mysqli_connect_error());
 }
-echo "Connected successfully";
+echo "<br>"."Connected successfully";
 ?>
